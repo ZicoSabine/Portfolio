@@ -3,7 +3,7 @@
 [![LinkedIn Banner](<pics/LinkedIn Banner.png>)](https://www.linkedin.com/in/zac-bellas/)
 
 <p style="margin-left: 15px;">
-Hi, I'm Zac. This portfolio is a <b>collection of projects</b>  I developed throughout college and during independent study, <i>with a focus on data analysis, business intelligence, applied machine learning, and analytical application development</i> (I just winged this one).
+Hi, my name is Zac. This portfolio is a <b>collection of projects</b>  I developed throughout college and during independent study, <i>with a focus on data analysis, business intelligence, applied machine learning, and analytical application development</i> (I just winged this one).
 <br><br>
 Each project started with a practical question: how should a dealer position its inventory, how can a recommender reduce choice overload, or what can customer behaviour reveal about retention and demand? The work is not presented as flawless. Where a model underperformed or the data could not support a definitive conclusion, I kept that visible and treated it as part of the analysis.
 </p>
