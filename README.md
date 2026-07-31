@@ -23,7 +23,7 @@ Each project started with a practical question: how should a dealer position its
 
 
 
-www## Quick Summary Table
+## Quick Summary Table
 
 | Project                              | Main Focus                                                      | Main Output                                          |
 | ------------------------------------ | --------------------------------------------------------------- | ---------------------------------------------------- |
