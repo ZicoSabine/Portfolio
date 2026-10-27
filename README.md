@@ -1,4 +1,53 @@
-# Zac's Portfolio
+# Rustic Duck Studio — Andrew “Zac” Bellas Portfolio
+
+A responsive personal portfolio for data analyst, application developer, and project coordinator Andrew “Zac” Bellas.
+
+**Live site:** [https://zicosabine.github.io/Portfolio/](https://zicosabine.github.io/Portfolio/)
+
+## Website development
+
+The site uses React, TypeScript, Vite, hand-authored responsive CSS, and GitHub Actions. It has no component-library or runtime analytics dependency.
+
+```bash
+npm install
+npm run dev
+```
+
+Quality checks and a production build:
+
+```bash
+npm run typecheck
+npm run build
+npm run preview
+```
+
+The project is configured with the `/Portfolio/` base path. Production output is written to `dist/`.
+
+### Where to edit
+
+- `src/data.ts` — project case studies, roles, education, skills, metrics, and repository links.
+- `src/App.tsx` — page structure, reusable components, navigation, and interaction behaviour.
+- `src/styles.css` — design tokens, responsive layout, animation, and reduced-motion support.
+- `public/assets/ducks/` — optimized duck illustrations.
+- `public/assets/projects/` — project screenshots.
+- `index.html` — SEO and social metadata.
+
+When adding a project, copy an entry in the `projects` array. Keep claims, metrics, technologies, and findings tied to project evidence, and include limitations where they affect interpretation.
+
+### GitHub Pages deployment
+
+Deployment is defined in `.github/workflows/deploy-pages.yml` and runs after a push to `main`.
+
+1. Open **Settings → Pages** in the GitHub repository.
+2. Under **Build and deployment**, set **Source** to **GitHub Actions**.
+3. Push to `main` or manually run **Deploy portfolio to GitHub Pages** from the Actions tab.
+4. Open the [live URL](https://zicosabine.github.io/Portfolio/) after the workflow succeeds.
+
+Project descriptions, metrics, findings, and limitations below remain the source record for the website content. No fictional clients, roles, or performance claims were added.
+
+---
+
+## Original portfolio narrative
 
 [![LinkedIn Banner](<pics/LinkedIn Banner.png>)](https://www.linkedin.com/in/zac-bellas/)
 
