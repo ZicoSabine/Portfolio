@@ -1,4 +1,4 @@
-# Rustic Duck Studio — Andrew “Zac” Bellas Portfolio
+# Andrew “Zac” Bellas Portfolio
 
 A responsive personal portfolio for data analyst, application developer, and project coordinator Andrew “Zac” Bellas.
 

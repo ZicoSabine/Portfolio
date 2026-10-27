@@ -82,7 +82,7 @@ function Hero() {
           <span>Based in the UAE · working across data, development, and delivery</span>
         </div>
       </div>
-      <div className="hero-art" aria-label="Rustic Duck Studio illustration">
+      <div className="hero-art" aria-label="Illustration">
         <span className="orbit orbit-one" />
         <span className="orbit orbit-two" />
         <img src={`${base}assets/ducks/duck-hero.webp`} alt="Hand-drawn cream and gold duck" />
@@ -336,12 +336,8 @@ function Contact() {
 function Footer() {
   return (
     <footer>
-      <a className="brand footer-brand" href="#top">
-        <img src={`${base}assets/duck-mark.svg`} alt="" />
-        <span>rustic duck studio</span>
-      </a>
       <p>Andrew “Zac” Bellas · Data, development & delivery</p>
-      <p>© {new Date().getFullYear()} · Built with care and honest caveats.</p>
+      <p>© {new Date().getFullYear()}</p>
     </footer>
   )
 }
