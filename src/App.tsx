@@ -85,7 +85,6 @@ function Hero() {
       <div className="hero-art" aria-label="Rustic Duck Studio illustration">
         <span className="orbit orbit-one" />
         <span className="orbit orbit-two" />
-        <div className="hero-stamp">RUSTIC DUCK<br />STUDIO · 2026</div>
         <img src={`${base}assets/ducks/duck-hero.webp`} alt="Hand-drawn cream and gold duck" />
         <p className="art-caption">A little warmth in<br />a world of dashboards.</p>
       </div>
@@ -114,6 +113,9 @@ function About() {
           </p>
           <p>
             The goal is not to force a dramatic conclusion. It is to produce a clear, reproducible view of what the evidence supports—and what it still cannot tell us.
+          </p>
+          <p className="duck-note">
+            And yes—I like ducks. They help me keep my <strong>ducks in a row</strong>, test whether an idea <strong>holds water</strong>, and avoid any <strong>quack conclusions</strong>.
           </p>
         </div>
       </div>

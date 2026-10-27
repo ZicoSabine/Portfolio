@@ -242,25 +242,6 @@ h1, h2, h3, p { margin-top: 0; }
 .orbit { position: absolute; z-index: 2; border: 1px solid rgba(108, 65, 44, 0.35); border-radius: 50%; }
 .orbit-one { top: 8%; right: 0; width: 96%; aspect-ratio: 1; transform: rotate(20deg) skewX(5deg); }
 .orbit-two { top: 18%; right: 10%; width: 74%; aspect-ratio: 1; transform: rotate(-25deg) skewY(8deg); }
-.hero-stamp {
-  position: absolute;
-  z-index: 4;
-  top: 18%;
-  left: -4%;
-  display: grid;
-  place-items: center;
-  width: 108px;
-  height: 108px;
-  border: 1px solid rgba(41, 39, 36, 0.5);
-  border-radius: 50%;
-  font-size: 0.58rem;
-  font-weight: 700;
-  line-height: 1.55;
-  letter-spacing: 0.14em;
-  text-align: center;
-  transform: rotate(-9deg);
-}
-
 .art-caption { position: absolute; z-index: 4; right: 2%; bottom: 5%; color: var(--brown); font-family: var(--serif); font-size: 1.05rem; font-style: italic; line-height: 1.35; transform: rotate(3deg); }
 .scroll-cue { position: absolute; z-index: 4; bottom: 2.2rem; left: 50%; display: flex; align-items: center; gap: 0.8rem; color: var(--muted); font-size: 0.66rem; letter-spacing: 0.13em; text-transform: uppercase; transform: translateX(-50%); }
 .scroll-cue i { display: block; width: 42px; height: 1px; background: var(--muted); }
@@ -285,6 +266,7 @@ h1, h2, h3, p { margin-top: 0; }
 .about-copy { padding-top: 2.8rem; color: #cbc2b4; font-size: 1rem; line-height: 1.8; }
 .about-copy .large-copy { color: var(--ivory); font-family: var(--serif); font-size: clamp(1.55rem, 2.5vw, 2.15rem); line-height: 1.36; }
 .about-copy strong { color: #edcf8f; font-weight: 500; }
+.duck-note { margin-top: 2rem; padding: 1rem 1.1rem; border-left: 2px solid #e9c67b; color: #e5ded2; background: rgba(255,255,255,.035); font-family: var(--serif); font-size: 1.05rem; font-style: italic; line-height: 1.6; }
 .principles { display: grid; grid-template-columns: repeat(3, 1fr) 0.9fr; gap: 1px; margin-top: 6rem; background: rgba(255,255,255,.16); border: 1px solid rgba(255,255,255,.16); border-radius: 24px; overflow: hidden; }
 .principle { min-height: 260px; padding: 2rem; background: #302e2a; }
 .principle > span { color: #e9c67b; font-size: 0.7rem; letter-spacing: 0.16em; }
@@ -436,7 +418,6 @@ footer p { margin: 0; }
   .hero-art { min-height: 470px; margin-top: 2.5rem; }
   .hero-art::before { top: 5%; right: -5%; width: 105%; }
   .hero-art img { top: 0; right: -11%; width: 116%; }
-  .hero-stamp { top: 5%; left: 0; width: 86px; height: 86px; font-size: .48rem; }
   .art-caption { right: 0; bottom: 1%; font-size: .9rem; }
   .scroll-cue { display: none; }
   .section { padding: 6rem 1.25rem; }
